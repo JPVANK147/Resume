@@ -1,9 +1,30 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    border-radius: 50%;
+}
+
 h1 {
     margin: 0auto;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 220%;
     color: rebeccapurple;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 25px 0;
+}
+
+div {
+    text-align: center;
+    padding: 25px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
 }
 
 li {
@@ -21,6 +42,7 @@ h3 {
     font-size: larger;
     font-style: inherit;
     color: crimson;
+    text-align: center;
 }
 
 p {
@@ -29,4 +51,13 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     color: teal;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+aside {
+    background-color: purple;
 }
