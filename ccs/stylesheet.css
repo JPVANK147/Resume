@@ -93,9 +93,42 @@ footer {
 
 form {
     text-align: center;
-    padding: 4px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     color: teal;
-    font: 1em sans-serif;
+}
+
+input[type=email] {
+    width: 20%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 2px dashed purple;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+label[for=email] {
+    color: teal;
+    padding: 4px;
+    font-size: small;
+
+}
+
+textarea {
+    width: 25%;
+    height: 125px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border: 2px dashed purple;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+input[type=submit] {
+    margin: 15px 15px;
+}
+
+input[type=submit] {
+    background-color: aqua;
+    color: black;
 }
