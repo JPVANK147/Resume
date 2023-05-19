@@ -68,7 +68,7 @@ p {
 }
 
 body {
-    background-color: black;
+    background-color: lightgray;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
@@ -89,4 +89,13 @@ footer {
     border-width: 3px;
     border-color: red;
     margin: 3px;
+}
+
+form {
+    text-align: center;
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: teal;
+    font: 1em sans-serif;
 }
