@@ -39,7 +39,7 @@ div.introductory {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Image/Purple Sea.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
