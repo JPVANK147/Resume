@@ -20,7 +20,7 @@ h1 {
     color: purple;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 20px;
 }
 
 .personal {
@@ -42,6 +42,13 @@ div.introductory {
     background-image: url("https://github.com/JPVANK147/Resume/blob/main/Images/PurpleSea.jpg?raw=true");
     background-position: center;
     position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    left: 925px;
+    transform: translate(-50%, -50%);
 }
 
 li {
