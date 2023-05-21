@@ -13,13 +13,14 @@ img {
 }
 
 h1 {
-    margin: 0auto;
     padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 220%;
-    color: rebeccapurple;
+    color: purple;
     text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 .personal {
@@ -33,6 +34,8 @@ div.introductory {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
     color: aqua;
+    position: relative;
+    top: 125px;
 }
 
 .hero-image {
