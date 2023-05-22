@@ -10,6 +10,7 @@ img {
     border-radius: 50%;
     border-width: 5px;
     border-color: grey;
+    top: 50px;
 }
 
 h1 {
@@ -36,6 +37,10 @@ div.introductory {
     color: aqua;
     position: relative;
     top: 125px;
+}
+
+#intro {
+    top: 1px;
 }
 
 .hero-image {
