@@ -146,3 +146,35 @@ input[type=submit] {
     background-color: aqua;
     color: black;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: grey;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (max-width: 1215px) {
+    body {
+        background-color: black;
+    }
+    
+    div.introductory {
+        position: relative;
+        right: 400px;
+        top: 51px;
+    }
+
+    .intro-1 {
+        position: relative;
+        bottom: 35px;
+    }
+}
